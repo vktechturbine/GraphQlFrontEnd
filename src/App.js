@@ -75,7 +75,7 @@ class App extends Component {
         password : authData.password
       }
     }
-    fetch('http://localhost:3002/graphql',{
+    fetch('https://feed-backend-api.onrender.com/graphql',{
       method:'POST',
       headers:{
         'Content-Type': 'application/json'
@@ -147,7 +147,7 @@ class App extends Component {
       }
     }
 
-    fetch('http://localhost:3002/graphql',{
+    fetch('https://feed-backend-api.onrender.com/graphql',{
       method:'POST',
       headers:{
         'Content-Type':'application/json'
